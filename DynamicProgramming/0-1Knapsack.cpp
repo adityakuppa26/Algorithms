@@ -10,7 +10,7 @@ int Knapsack(int W,int w[],int val[], int n)            // W is the total weight
         K[i][j]=0;
       }
       
-      else if(w[i] < W)
+      else if(w[i] <= j)
       {
         K[i][j]=max(val[i-1] + K[i-1][j-w[i-1]] , K[i-1][j]);
       }
