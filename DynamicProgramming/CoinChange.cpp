@@ -12,7 +12,7 @@ int change(int S[], int m, int n)
     for(int j=0;j<m;j++)
     {
       int x= (i-S[j] >= 0) ? table[i-S[j]][j] : 0;
-      int y= (j>=0) ? table[i][j-1] : 0;
+      int y= (j>=1) ? table[i][j-1] : 0;
       table[i][j]=x+y;
     }
   }
