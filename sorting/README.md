@@ -14,7 +14,11 @@ Space complexity : O(1)
 In this sort, the elements are selected from the array one by one and are inserted in an appropriate position by scanning the part of the array to the left of it. This is similar to arranging a set of cards in your hand, where, you insert a card in an appropriate position by scanning the given set from right to left.
     
 ```
-Time Complexity = O(n^2)
+Time Complexity:
+Worst Case : O(n^2)
+Best Case : O(n)
+Average Case : O(n^2)
+Space complexity : O(1) auxiliary
 ```
 
 # Selection Sort :
@@ -28,6 +32,8 @@ Best Case : O(n^2)
 Average Case : O(n^2)
 Space complexity : O(1)
 ```
+  
+
 
 # Merge Sort : 
   
