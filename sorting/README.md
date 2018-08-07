@@ -4,9 +4,9 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 
 ```  
 Time Complexity :
-Worst case : O(n<sup>2</sup>)
+Worst case : O(n^2)
 Best Case : O(n)
-Average Case : O(n<sup>2</sup>)
+Average Case : O(n^2)
 Space complexity : O(1)
 ```
 # Insertion Sort :
