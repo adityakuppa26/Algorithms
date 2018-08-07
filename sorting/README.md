@@ -33,7 +33,7 @@ Average Case : O(n^2)
 Space complexity : O(1)
 ```
   
-
+![comp](1.PNG)
 
 # Merge Sort : 
   
