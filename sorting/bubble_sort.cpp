@@ -10,16 +10,15 @@ void swap(int* a, int* b)
 
 void bubblesort(int arr[], int n)
 {
-  int i,j;
   bool swapped;
-  for(i=0;i<n-1;i++)
+  for(int pass=n-1;pass>=0;pass--)
   {
     swapped=false;
-    for(j=0;j<n-i-1;j++)
+    for(int i=0;i<=pass-1;i++)
     {
-      if(arr[j] > arr[j+1])
+      if(arr[i] > arr[i+1])
       {
-        swap(&arr[j],&arr[j+1]);
+        swap(&arr[i],&arr[i+1]);
         swapped=true;
       }
     }
