@@ -3,7 +3,11 @@
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. It begins at the beginning of the dataset and continues doing this for each pair of adjacent elements upto the end of the dataset. This process is repeated until no more swaps take place in an iteration.  
 
 ```  
-Time Complexity = O(n^2)
+Time Complexity :
+Worst case : O(n<sup>2</sup>)
+Best Case : O(n)
+Average Case : O(n<sup>2</sup>)
+Space complexity : O(1)
 ```
 # Insertion Sort :
   
