@@ -7,19 +7,17 @@ void swap(int* a, int* b)
 
 void selectionsort(int arr[], int n)
 {
-  int min,index;
+  int min;
   for(int i=0;i<n-1;i++)
   {
-    min=arr[i];
-    index=i;
-    for(j=i+1;j<n;j++)
+    min=i;
+    for(int j=i+1;j<n;j++)
     {
-      if(min > arr[j])
+      if(arr[j] < arr[min] )
       {
-        min=arr[j];
-        index=j;
+        min=j;
       }
     }
-    swap(&arr[i],&arr[index]);
+    swap(&arr[i],&arr[min]);
   }
 }
