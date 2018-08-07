@@ -4,7 +4,7 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 
 ```  
 Time Complexity :
-Worst case : O(n^2)
+Worst Case : O(n^2)
 Best Case : O(n)
 Average Case : O(n^2)
 Space complexity : O(1)
@@ -19,10 +19,14 @@ Time Complexity = O(n^2)
 
 # Selection Sort :
   
-This sorting technique finds the smallest element in the data set and swaps it with the element in the first position. This process is repeated for the remaining list.
+This sorting technique finds the smallest element in the data set and swaps it with the element in the current position. This process is repeated for the remaining list.
   
 ```
-Time Complexity = O(n^2)
+Time Complexity:
+Worst Case : O(n^2)
+Best Case : O(n^2)
+Average Case : O(n^2)
+Space complexity : O(1)
 ```
 
 # Merge Sort : 
