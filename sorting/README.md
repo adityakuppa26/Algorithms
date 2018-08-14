@@ -40,7 +40,10 @@ Space complexity : O(1)
 This technique splits the array onto two halves, the left and right halves are again split into two each, this process of splitting is repeated until no more splitting is possible. It then sorts the left part, the corresponding right part and then merges these two sorted lists.This process or sorting followed by merging is repeated until we get back the original array which is now sorted. 
   
 ```
-Time Complexity = O(nlog(n))
+Time Complexity :
+Worst Case : O(nlogn)
+Best Case : O(nlogn)
+Average Case : O(nlogn)
 ```  
 # Quick Sort :
   
@@ -73,3 +76,13 @@ Time Complexity = O(n+k)
     where,
     k is the largest element in the list to be sorted
 ```
+  
+# Shell Sort :
+  
+ShellSort is mainly a variation of Insertion Sort. In insertion sort, we move elements only one position ahead. When an element has to be moved far ahead, many movements are involved. The idea of shellSort is to allow exchange of far items. In shellSort, we make the array h-sorted for a large value of h. We keep reducing the value of h until it becomes 1. An array is said to be h-sorted if all sublists of every h’th element is sorted.
+```
+ Time Complexity :  
+  Worst case = depends on gap sequence  
+  Best case = O(n)
+  Average case = depends on gap sequence 
+  ```
