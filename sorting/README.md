@@ -1,11 +1,16 @@
 # Stability in Sorting Algos :
   
 A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.  
+  
 Formally stability may be defined as,  
+  
 Let A be an array, and let < be a strict weak ordering on the elements of A.  
 A sorting algorithm is stable if-  
+```
 i<j and A[i]=A[j] implies p(i)<p(j)  
+
 where p is the sorting permutation ( sorting moves A[i] to p(i) )  
+```
   
 # Bubble Sort :
   
