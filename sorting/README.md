@@ -44,6 +44,11 @@ Time Complexity :
 Worst Case : O(nlogn)
 Best Case : O(nlogn)
 Average Case : O(nlogn)
+
+Note :
+-> Used to sort linked lists.
+-> insensitive to the initial order of the input.
+-> more stable than quick sort ( doesn't need a stack).
 ```  
 # Quick Sort :
   
